@@ -1,0 +1,445 @@
+body {
+
+	background-color: #FFF;
+	font-family: "Lato", sans-serif;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.centered {
+	text-align: center;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: #FFF;
+	min-height: 80px;
+	margin-bottom: 0;
+}
+
+.header_link {
+	color: #444456;
+	margin-top: 25px;
+}
+
+.navbar-nav > li > a {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.navbar-nav > li > a:hover {
+	color: #FFF;
+	background-color: #1BBC9B;
+}
+
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:visited,
+.navbar-nav > li > a:focus {
+	color: #FFF;
+  background: #16A086;
+}
+
+.logo {
+	float: left;
+	padding-top: 17px;
+}
+
+.logo_text {
+	padding-left: 10px;
+	padding-top: 19px;
+	font-weight: bold;
+	font-size: 17px;
+	font-weight: 1000;
+}
+
+.logo_text_2 {
+	font-size: 12px;
+	text-transform: none;
+	font-weight: 600;
+}
+
+
+/*
+HEADERWRAP
+*/
+
+
+
+
+#headerwrap {
+	background: url(../img/intro.png) no-repeat center top;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 560px;
+	width: 100%;
+	color: #FFF;
+
+	-webkit-background-size: cover;
+	-moz-webkit-background-size: cover;
+	-o-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.main_text {
+	font-size: 60px;
+	font-weight: lighter;
+	padding-top: 70px;
+	padding-bottom: 25px;
+}
+
+@media (max-width: 500px) {
+
+	.main_text {
+		padding-top: 30px;
+	}
+}
+
+.main_brand {
+	font-weight: bold;
+}
+
+.main_lorem {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.btn {
+  padding: 12px 15px;
+  border: 0 none;
+  border-radius: 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #1BBC9B;
+  margin-top: 30px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+  background: #16A086;
+}
+ 
+.btn-primary {
+  background: #1BBC9B;
+  color: #FFF;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #16A086;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+  background: #16A086;
+  box-shadow: none;
+}
+
+.down_arrow {
+	font-size: 60px;
+	margin-top: 60px;
+	color: #FFF;
+}
+
+
+
+/*
+PORTFOLIO
+*/
+
+
+
+
+#portfolio {
+	min-height: 700px;
+	width: 100%;
+	color: #444456;
+}
+
+.portfolio_btn {
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.portfolio_item_container{
+	padding-top: 30px;
+}
+
+
+.portfolio_item {
+	position: relative;
+}
+
+.portfolio_item:hover > .portfolio_item__hover {
+	display: block;
+}
+
+.portfolio_item__hover {
+	position: absolute;
+	width: 180px;
+	height: 180px;
+	right: 0;
+	border-radius: 50%;
+	background-color: rgba(22, 160, 134, 0.8);
+	background-position: middle top;
+	display: none;
+}
+
+.item_search {
+	width: 40px;
+	height: 40px;
+	margin-left: 70px;
+	margin-top: 30px;
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 25px;
+	background-color: #000;
+	opacity: 0.6;
+}
+
+.item_title {
+	color: #FFF;
+	font-size: 18px;
+	opacity: 1;
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+.item_title_2 {
+	font-size: 14px;
+	font-weight: 200;
+	padding-top: 5px;
+}
+
+
+
+
+/*
+ABOUT
+*/
+
+
+
+
+#about {
+	background-color: #16A086;
+	text-align: center;
+	min-height: 640px;
+	width: 100%;
+	color: #FFF;
+}
+
+.about_team {
+	padding: 0 44px 0 51px;
+	margin-top: 20px;
+}
+
+.soc_block {
+	position: absolute;
+	background-color: rgba(22, 160, 134, 0.8);
+	height: 45px;
+	width: 180px;
+	z-index: 11;
+	right: 65px;
+	top: 88px;
+	display: none;
+}
+
+.soc_item {
+	width: 45px;
+	float: left;
+	font-size: 32px;
+	color: #FFF;
+	text-align: center;
+}
+
+.soc_link {
+	color: #FFF;
+}
+
+.soc_link:hover,
+.soc_link:focus {
+	color: #F4867B;
+	text-decoration: none;
+	outline: 0px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.about_photo {
+	position: relative;
+}
+
+.photo_hover:hover > .soc_block {
+	display: block;
+}
+
+.about_text {
+	background-color: #FFF;
+	color: #444456;
+}
+
+.about_name {
+	padding-top: 10px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
+.about_pro {
+	font-style: italic;
+}
+
+.about_lorem {
+	text-align: left;
+	padding: 15px 10px;
+	font-size: 15px;
+}
+
+
+
+/*
+CONTACT
+*/
+
+
+
+#contact {
+	min-height: 480px;
+}
+
+.contact_cont {
+	height: 275px;
+}
+
+form {
+	padding-top: 5px;
+}
+
+.footer__input:nth-child(2) {
+	margin-left: 20px;
+}
+
+.footer__input {
+	float: left;
+	outline: none;
+	width: 260px;
+	height: 50px;
+	padding: 12px;
+	border: 2px solid #BEC3C7;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 15px;
+  color: #444456;
+}
+
+.footer__input-big {
+	float: left;
+	outline: none;
+	width: 100%;
+	min-height: 140px;
+	margin-top: 20px;
+	resize: none;
+	padding: 12px;
+	border: 2px solid #BEC3C7;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 15px;
+  color: #444456;
+}
+
+.footer__input:focus {
+	border: 2px solid #444456;
+}
+
+.submit_btn {
+	font-size: 12px;
+	letter-spacing: 2px;
+	width: 110px;
+	margin-top: 20px;
+	float: left;
+}
+
+.contact_info {
+	text-align: left;
+	font-size: 15px;
+  color: #444456;
+  font-weight: 500;
+}
+
+
+
+/*
+FOOTER
+*/
+
+
+
+#footer {
+	height: 80px;
+	background-color: #2D3E50;
+	color: #FFF;
+}
+
+.footer_block {
+	height: 17px;
+	margin-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+.footer_block:nth-child(2) {
+	border-left: 1px solid #FFF;
+}
+
+.home_up {
+  padding: 15px 15px;
+  border: 0 none;
+  font-weight: 700;
+  background: #1BBC9B;
+  color: #FFF;
+  font-size: 20px;
+  margin-top: 15px;
+  float: right;
+}
+
+.home_up:focus, .home_up:active:focus, .home_up.active:focus {
+  outline: 0 none;
+  background: #16A086;
+}
+ 
+.home_up-primary {
+  background: #1BBC9B;
+  color: #FFF;
+}
+ 
+.home_up-primary:hover, .home_up-primary:focus, .home_up-primary:active {
+  background: #16A086;
+}
+ 
+.home_up-primary:active, .home_up-primary.active {
+  background: #16A086;
+  box-shadow: none;
+}
